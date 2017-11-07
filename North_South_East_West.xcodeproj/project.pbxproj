@@ -14,6 +14,9 @@
 		336BEDF11FB1546D0071FD11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336BEDEF1FB1546D0071FD11 /* LaunchScreen.storyboard */; };
 		336BEDFC1FB1546D0071FD11 /* North_South_East_WestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336BEDFB1FB1546D0071FD11 /* North_South_East_WestTests.swift */; };
 		336BEE071FB1546D0071FD11 /* North_South_East_WestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336BEE061FB1546D0071FD11 /* North_South_East_WestUITests.swift */; };
+		336BEE151FB172D80071FD11 /* MainVewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336BEE141FB172D80071FD11 /* MainVewController.swift */; };
+		336BEE171FB1735C0071FD11 /* EastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336BEE161FB1735C0071FD11 /* EastViewController.swift */; };
+		336BEE191FB174330071FD11 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336BEE181FB174330071FD11 /* MainNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		336BEE021FB1546D0071FD11 /* North_South_East_WestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = North_South_East_WestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		336BEE061FB1546D0071FD11 /* North_South_East_WestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = North_South_East_WestUITests.swift; sourceTree = "<group>"; };
 		336BEE081FB1546D0071FD11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336BEE141FB172D80071FD11 /* MainVewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVewController.swift; sourceTree = "<group>"; };
+		336BEE161FB1735C0071FD11 /* EastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EastViewController.swift; sourceTree = "<group>"; };
+		336BEE181FB174330071FD11 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				336BEDED1FB1546D0071FD11 /* Assets.xcassets */,
 				336BEDEF1FB1546D0071FD11 /* LaunchScreen.storyboard */,
 				336BEDF21FB1546D0071FD11 /* Info.plist */,
+				336BEE141FB172D80071FD11 /* MainVewController.swift */,
+				336BEE161FB1735C0071FD11 /* EastViewController.swift */,
+				336BEE181FB174330071FD11 /* MainNavigationController.swift */,
 			);
 			path = North_South_East_West;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				336BEE191FB174330071FD11 /* MainNavigationController.swift in Sources */,
 				336BEDE91FB1546D0071FD11 /* ViewController.swift in Sources */,
+				336BEE151FB172D80071FD11 /* MainVewController.swift in Sources */,
 				336BEDE71FB1546D0071FD11 /* AppDelegate.swift in Sources */,
+				336BEE171FB1735C0071FD11 /* EastViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
